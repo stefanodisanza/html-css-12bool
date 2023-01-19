@@ -1,0 +1,16 @@
+[class^='col'] {
+    min-height: 40px;
+	padding: 10px;
+	background-color: #006CFA;
+	color: white;
+	border: 1px solid white;
+    text-align: center;
+}
+
+.green{
+    background-color: #00E264;
+}
+
+section {
+	padding: 5px;
+}

@@ -9,17 +9,18 @@
 }
 
 .container {
-	max-width: 1170px;
+	max-width: 2000px;
 	margin: 0 auto;
 	padding: 0 calc(var(--gutter-x) / 2);
+    
 }
 
 .row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-left: calc(var(--gutter-x) / 2 * -1);
-    margin-right: calc(var(--gutter-x) / 2 * -1);
+    /* margin-left: calc(var(--gutter-x) / 2 * -1);
+    margin-right: calc(var(--gutter-x) / 2 * -1); */
 }
 
 .col {
@@ -31,6 +32,9 @@
 .row > * {
 	padding: 0 calc(var(--gutter-x) / 2);
 }
+
+
+
 
 /* DIMENSIONI COLONNE */
 
@@ -67,7 +71,7 @@
 }
 
 .col-9{
-    flex-basis: calc((100 / 12)*9);
+    flex-basis: calc((100% / 12)*9);
 }
 
 .col-10{
